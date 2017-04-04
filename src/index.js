@@ -1,10 +1,9 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-
-const title = 'Hello World!!!';
+import GameOfLifeContainer from './GameOfLifeContainer.js'
 
 ReactDOM.render(
-  <div>{title}</div>,
+  <GameOfLifeContainer />,
   document.getElementById('app')
 );
 
